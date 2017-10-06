@@ -7,7 +7,7 @@ set( SRC
 	src/main.cpp
 )
 
-add_executable(MyAPP ${SRC})
+add_executable(MyApp ${SRC})
 
-#target_link_libraries(MyApp pthread)
-#install(TARGETS MyApp DESTINATION bin)
+target_link_libraries(MyApp pthread)
+install(TARGETS MyApp DESTINATION bin)
